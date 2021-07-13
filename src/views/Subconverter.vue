@@ -267,7 +267,7 @@ export default {
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "sub.tizi123.tk (自用-测试）": "https://sub-beta.now.sh/sub?",
+          "sub.tizi123.tk (自用-测试）": "https://sub.tizi123.tk/sub?",
           "subcon.dlj.tf(subconverter作者提供-稳定)":
             "https://subcon.dlj.tf/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
@@ -357,6 +357,11 @@ export default {
                 label: "ACL4SSR_Online_Full_Netflix 全分组 重度用户使用 奈飞全量 (与Github同步)",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Netflix.ini"
+              },
+	      {
+                label: "ACL4SSR_Online_Full_Netflix 全分组 重度用户使用 奈飞全量 (与Github同步)--自用版本",
+                value:
+                  "https://raw.githubusercontent.com/iadao/qx/main/Ruleset/ACL4SSR_Online_Full_Netflix.ini"
               },
               {
                 label: "ACL4SSR 本地 默认版 分组比较全",
